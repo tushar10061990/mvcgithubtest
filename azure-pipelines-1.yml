@@ -8,5 +8,5 @@ steps:
   - script: | 
      echo $(os)
      echo $(inputvar)
-     echo variable group $(var1)
+     echo vargroup $(var1)
     displayName: step2
