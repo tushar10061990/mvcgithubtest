@@ -1,7 +1,9 @@
 pool: MyComputerAagent
 
-variables:
-  os: windows
+variables: 
+  -group: vargroup
+  -name: os
+  vaue: windows
 
 steps:
   - script: 
@@ -14,4 +16,5 @@ steps:
     displayName: step2
   - script: 
      echo $(inputvar)
+     echo variable group $(var1)
     displayName: step2
