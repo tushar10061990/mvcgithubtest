@@ -2,8 +2,7 @@ pool: MyComputerAagent
 
 variables: 
   -group: vargroup
-  -name: os
-  vaue: windows
+  os: windows
 
 steps:
   - script: | 
