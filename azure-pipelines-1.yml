@@ -8,4 +8,4 @@ stages:
     jobs:
       - job: 
         steps:
-          - script: echo $(var os)
+          - script: echo ${{variables.os}}
