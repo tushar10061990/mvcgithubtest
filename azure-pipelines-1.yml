@@ -12,3 +12,6 @@ steps:
   - script: 
      echo $(os)
     displayName: step2
+  - script: 
+     echo $(inputvar)
+    displayName: step2
