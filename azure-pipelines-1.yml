@@ -6,10 +6,8 @@ variables:
   vaue: windows
 
 steps:
-  - script: 
+  - script: | 
      echo $(os)
-    displayName: step1
-  - script: 
      echo $(inputvar)
      echo variable group $(var1)
     displayName: step2
