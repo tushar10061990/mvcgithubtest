@@ -1,8 +1,11 @@
 pool: MyComputerAagent
 
+variables:
+  os: windows
+
 stages:
   - stage:
     jobs:
       - job: 
         steps:
-          - script: echo hello
+          - script: echo $(var os)
