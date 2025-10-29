@@ -3,7 +3,7 @@ pool: MyComputerAagent
 variables: 
   - group: vargroup
   - name: os
-    value: windows
+    value: window
 
 steps:
   - script: | 
