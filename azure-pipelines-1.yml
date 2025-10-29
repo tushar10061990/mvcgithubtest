@@ -10,4 +10,6 @@ steps:
      echo $(os)
      echo $(inputvar)
      echo variable group $(var1)
+     echo "##vso[task setvariable variable=inputvar]newvalue123"}
+     echo $(inputvar)
     displayName: step2
