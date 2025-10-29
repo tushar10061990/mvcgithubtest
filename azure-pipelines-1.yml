@@ -1,4 +1,6 @@
 stages:
   - stage:
-    variables:
-      os: windows
+    jobs:
+      - job: 
+        steps:
+          - script: echo hello
