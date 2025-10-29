@@ -3,9 +3,12 @@ pool: MyComputerAagent
 variables:
   os: windows
 
-stages:
-  - stage:
-    jobs:
-      - job: 
-        steps:
-          - script: echo $(os)
+steps:
+  - script: 
+     echo $(os)
+  - script: 
+     echo hello from script
+    displayName: step1
+  - script: 
+     echo $(os)
+    displayName: step2
